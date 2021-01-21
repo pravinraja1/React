@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Game from './components/devTest';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App headerProp="sample Data" contentProp ="Test Data" />
+    <Game/>
   </React.StrictMode>,
   document.getElementById('root')
 );
